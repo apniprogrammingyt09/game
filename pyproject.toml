@@ -1,0 +1,6 @@
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+streamlit = "*"
+opencv-python = "*"
+mediapipe = "*"
+numpy = "*"
