@@ -1,6 +1,16 @@
+[tool.poetry]
+name = "game"
+version = "0.1.0"
+description = "A simple Streamlit game app"
+authors = ["Your Name <you@example.com>"]
+
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
 streamlit = "*"
 opencv-python = "*"
-mediapipe = "*"
+mediapipe = "0.10.14"
 numpy = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
